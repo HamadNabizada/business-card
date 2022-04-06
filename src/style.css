@@ -87,5 +87,23 @@ body{
 .fa-linkedin{
     margin-right: .8rem;
 }
-
+.about-wrapper{
+    margin-top: 3.3rem;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0 3.7rem;
+}
+.about-wrapper>h2{
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.about-wrapper>p{
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
 
