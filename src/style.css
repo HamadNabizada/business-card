@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px
+}
+#root{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #1A1B21;
+    height:78em;
+    width:31em;
+}
+.img-wrapper{
+    height: 31em;
+    width:31em;
+    background-color: #1A1B21;
+    background-image: url('./profilepic.png');
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info-name{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+.info-name>h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+}
+.info-name>h3{
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.info-name>h4{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#F5F5F5;
+    margin-top: .88rem;
+}
+.button-wrapper{
+    margin-top: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    border-radius: 9px;
+    border: none;
+    width:11.5rem;
+    height: 3.4rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.btn-email{
+    margin-right: 1.7rem;
+    background-color: white;
+}
+.fa-envelope{
+    margin-right:.8rem;
+}
+.btn-linkedin{
+    color:white;
+    background-color:#5093E2;
+}
+.fa-linkedin{
+    margin-right: .8rem;
+}
+
+
